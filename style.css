@@ -1,0 +1,75 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+@media screen and (min-width: 900px) {
+
+.halfr {
+	height: 10%;
+	width: 100%;
+	background-color: red;
+}
+
+.blue {
+	height: 90vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	height: 50%;
+	width: calc(100%/3);
+	}
+}
+/* Paste in code from your old files to save time and avoid typos! */
+
+@media screen and (max-width: 899px) {
+
+.halfr {
+	height: 10%;
+	width: 100%;
+	background-color: red;
+}
+
+.blue {
+	height: 160vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	height: 34%;
+	width: 100%;
+	}
+}
+
+.picture {
+	height: 85vh;
+	width:100vw;
+	background-color: orange;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.white {
+	background-color: grey;
+}
+
+.blue1 {
+	background-color: blue;
+}
